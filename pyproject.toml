@@ -6,6 +6,7 @@ authors = ["João Victor Inocêncio Macedo de Aguiar"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+pymongo = "^4.4.1"
 
 [tool.poetry.dev-dependencies]
 
