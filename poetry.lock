@@ -33,11 +33,23 @@ ocsp = ["pyopenssl (>=17.2.0)", "requests (<3.0.0)", "service-identity (>=18.1.0
 snappy = ["python-snappy"]
 zstd = ["zstandard"]
 
+[[package]]
+name = "python-dotenv"
+version = "1.0.0"
+description = "Read key-value pairs from a .env file and set them as environment variables"
+category = "main"
+optional = false
+python-versions = ">=3.8"
+
+[package.extras]
+cli = ["click (>=5.0)"]
+
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "49d81e5d7fbc643cc53084b629fb5c8621f5e7b4fcb1f850c7d0e18e35492492"
+content-hash = "115f56078763980ca3a771a527d4dc5ea464ba45e504eea5446008d520c8cda1"
 
 [metadata.files]
 dnspython = []
 pymongo = []
+python-dotenv = []
